@@ -1,1 +1,48 @@
+li {
+    list-style: none;
+}
 
+.header {
+    background-color: #26d0c9;
+    color: aliceblue;
+    height: 45px;
+}
+
+.footer{
+    background-color: #2f5167;
+    color: aliceblue;
+}
+
+.header-logo {
+    float: left;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+
+.mainlist  li{
+    float: left;
+    padding: 10px 20px;  
+    border-bottom: 2px solid #899094;
+}
+.kotae img{
+    float: left;
+}
+.kotaeleft {
+    float: left;
+    border-bottom: 2px solid #899094;
+}
+
+.kotaeright {
+    float: right;
+    border-bottom: 2px solid #899094;
+}
+ .banngou{
+    text-align: center;
+    border: 2px solid ;
+    margin: 20px;
+ }
+
+ .next {
+    float: right;
+ }
