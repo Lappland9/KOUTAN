@@ -6,11 +6,15 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
+    <script src="javascript.js"></script>
+
     <div class="header">
         <div class = "header-logo">KOUTANDOJO</div>
     </div>
 
     <div class="main">
+
       <div class="mainlist">
         <ul>
         <li>正答数 /</li>
@@ -23,41 +27,49 @@
     </div>
 
     <div class="mondai"><!--問題の画像表示 -->
-      <img src="koutan image/4-1-1.png">
+      <img id="img1" src="modaiPNG\3-1-1.jpg">
     </div>
+
+    <div class="kotaejpg">
+      <img id="kotaepng" src="marubatuPNG/mark_maru.png" >
+    </div>
+
     <div class="kotae">
-      <img src="https://th.bing.com/th/id/OIP.pUJ37jBw544R-wNxu0WvkgHaHa?w=223&h=220&c=7&r=0&o=5&pid=1.7" width="100px"><br><br>
       <ul>
         <li class="kotaeleft">答え</li>
-        <li class="kotaeleft"></li><!--答えの番号表示 -->
+        <li id="kotae" class="kotaeleft"></li><!--解答の番号表示 -->
         <li class="kotaeright">解答</li>
-        <li class="kotaeright"></li><!--解答の番号表示 -->
+        <li id="kaitou" class="kotaeright"></li><!--解答の番号表示 -->
       </ul>
-      <br>
-
     </div>
-    <div class="banngou">
-      <button type="button">1</button>
-      <button type="button">2</button>
-      <button type="button">3</button>
-      <button type="button">4</button>
-      <button type="button">5</button>
-      <button type="button">6</button>
 
+    <br><br>
+
+    <div class="banngou">
+      <button type="button" onclick="button1click()" >1</button>
+      <button type="button" onclick="button2click()" >2</button>
+      <button type="button" onclick="button3click()" >3</button>
+      <button type="button" onclick="button4click()" >4</button>
+      <button type="button" onclick="button5click()" >5</button>
+      <button type="button" onclick="button6click()" >6</button>
     </div>
 
     <div class="next">
-      <button type="button">次へ</button>
-    </div>
+      <button type="button" onclick="next()">次へ</button>
     </div>
 
-    <br>
+    </div>
+
+    <br><br><br>
 
     <div class="footer">
+
       <div class="nenndo">
         <p>令和　年度　前期　ジャンル</p><!--年度、ジャンルの表示 -->
 
       </div>
+
     </div>
+
   </body>
 </html>
