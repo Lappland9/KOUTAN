@@ -20,7 +20,11 @@ li {
 }
 
 .mondai {
-    height: 90svh;
+    height: 100px;
+}
+
+.mainlist {
+    width: 100%;
 }
 
 .mainlist  li{
@@ -30,7 +34,7 @@ li {
 }
 .kotaejpg img{
     float: left;
-    width: 15svh;
+    width: 10%;
     height: auto;
 }
 .kotaeleft {
@@ -45,15 +49,15 @@ li {
  .banngou button{
     text-align: center;
     margin: 10px;
-    width: 17svh;
-    height: 8svh;
+    width: 10%;
+    height: 10%;
  }
 
  .next  button{
     float: right;
     margin: 10px;
-    width: 17vh;
-    height: 8vh;
+    width: 17%;
+    height: 8%;
  }
  .mondai img {
     float: left;
