@@ -19,14 +19,19 @@ li {
     padding: 10px 20px;
 }
 
+.mondai {
+    height: 90svh;
+}
 
 .mainlist  li{
     float: left;
     padding: 10px 20px;  
     border-bottom: 2px solid #899094;
 }
-.kotae img{
+.kotaejpg img{
     float: left;
+    width: 15svh;
+    height: auto;
 }
 .kotaeleft {
     float: left;
@@ -37,12 +42,21 @@ li {
     float: right;
     border-bottom: 2px solid #899094;
 }
- .banngou{
+ .banngou button{
     text-align: center;
-    border: 2px solid ;
-    margin: 20px;
+    margin: 10px;
+    width: 17svh;
+    height: 8svh;
  }
 
- .next {
+ .next  button{
     float: right;
+    margin: 10px;
+    width: 17vh;
+    height: 8vh;
+ }
+ .mondai img {
+    float: left;
+    width: 100%;
+    height: auto;
  }
