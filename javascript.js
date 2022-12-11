@@ -158,7 +158,7 @@ function next() {// 次の問題へ行くための関数
     } else {
         mondainum++;
     }
-    document.getElementById("img1").src="\\modaiPNG\\3-1-" + imgnum[mondainum] + ".jpg";
+    document.getElementById("img1").src="modaiPNG\\3-1-" + imgnum[mondainum] + ".jpg";
     document.getElementById("kaitou").innerHTML = "" ;
     document.getElementById("kotae").innerHTML = "" ;
 
