@@ -14,53 +14,49 @@
     </div>
 
     <div class="main">
-
-      <div class="mainlist">
-        <ul>
-        <li>正答数 /</li>
-        <li>問題数</li>
-        <li>正答率</li>
-        <li>基礎正答率</li>
-        <li>技術正答率</li>
-        <li>法規正答率</li>
+      <ul class="test">
+        <li class="mainlist">
+          <a>正答数 /</a>
+          <a>問題数</a>
+          <a>正答率</a><br><br>
+          <a>基礎正答率</a>
+          <a>技術正答率</a>
+          <a>法規正答率</a>
+          
+        </li>
+        <li class="gazo">
+          <ul>
+            <li class="mondai"><!--問題の画像表示 -->
+                <img id="img1" src="modaiPNG\3-1-1.jpg">
+            </li>
+            <li class="kotaejpg">
+                <img id="kotaepng" src="marubatuPNG/mark_maru.png">
+            </li>
+          </ul>
+        </li>
+        <li class="kotaekaitou">
+          <ul>
+            <li class="kotaeleft">答え&emsp; </li>
+            <li id="kotae" class="kotaeleft"></li><!--解答の番号表示 -->
+            <li class="kotaeright">&emsp; 解答&emsp; </li>
+            <li id="kaitou" class="kotaeright"></li><!--解答の番号表示 -->
+          </ul>
+        </li>
+        <li class="contents">
+          <div class="banngou">
+            <button type="button" onclick="button1click()" >1</button>
+            <button type="button" onclick="button2click()" >2</button>
+            <button type="button" onclick="button3click()" >3</button>
+            <button type="button" onclick="button4click()" >4</button>
+            <button type="button" onclick="button5click()" >5</button>
+            <button type="button" onclick="button6click()" >6</button>
+          </div>
+        </li>
+          <li class="next">
+            <button type="button" onclick="next()">次へ</button>
+          </li>
       </ul>
     </div>
-
-    <div class="mondai"><!--問題の画像表示 -->
-      <img id="img1" src="modaiPNG\3-1-1.jpg">
-    </div>
-
-    <div class="kotaejpg">
-      <img id="kotaepng" src="marubatuPNG/mark_maru.png" >
-    </div>
-
-    <div class="kotae">
-      <ul>
-        <li class="kotaeleft">答え</li>
-        <li id="kotae" class="kotaeleft"></li><!--解答の番号表示 -->
-        <li class="kotaeright">解答</li>
-        <li id="kaitou" class="kotaeright"></li><!--解答の番号表示 -->
-      </ul>
-    </div>
-
-    <br><br>
-
-    <div class="banngou">
-      <button type="button" onclick="button1click()" >1</button>
-      <button type="button" onclick="button2click()" >2</button>
-      <button type="button" onclick="button3click()" >3</button>
-      <button type="button" onclick="button4click()" >4</button>
-      <button type="button" onclick="button5click()" >5</button>
-      <button type="button" onclick="button6click()" >6</button>
-    </div>
-
-    <div class="next">
-      <button type="button" onclick="next()">次へ</button>
-    </div>
-
-    </div>
-
-    <br><br><br>
 
     <div class="footer">
 
