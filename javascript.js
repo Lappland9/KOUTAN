@@ -222,3 +222,27 @@ function next() {// 次の問題へ行くための関数
     document.getElementById("kotae").innerHTML = "" ;
 
 }
+function R11() {
+    mondainum = 1;
+    dainum = 1;
+    nennum = 1;
+    document.getElementById("img1").src="modaiPNG\\"+ nennum + "-"+ dainum + "-" + mondainum + ".jpg";
+ }
+ function R12() {
+    mondainum = 1;
+    dainum = 2;
+    nennum = 1;
+    document.getElementById("img1").src="modaiPNG\\"+ nennum + "-"+ dainum + "-" + mondainum + ".jpg";
+ }
+ function R22() {
+    mondainum = 1;
+    dainum = 2;
+    nennum = 2;
+    document.getElementById("img1").src="modaiPNG\\"+ nennum + "-"+ dainum + "-" + mondainum + ".jpg";
+ }
+ function R31() {
+    mondainum = 1;
+    dainum = 1;
+    nennum = 3;
+    document.getElementById("img1").src="modaiPNG\\"+ nennum + "-"+ dainum + "-" + mondainum + ".jpg";
+ }
