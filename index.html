@@ -15,34 +15,29 @@
 
     <div class="main">
       <ul class="test">
-        <li class="mainlist">
-          <a>正答数 /</a>
+        <div class="mainlist">
+          <a>正答数</a>
           <a>問題数</a>
           <a>正答率</a><br><br>
           <a>基礎正答率</a>
           <a>技術正答率</a>
-          <a>法規正答率</a>
-          
-        </li>
-        <li class="gazo">
-          <ul>
-            <li class="mondai"><!--問題の画像表示 -->
+          <a>法規正答率</a><br><br>
+        </div>
+        <div class="gazo">
+            <div class="mondai"><!--問題の画像表示 -->
                 <img id="img1" src="modaiPNG\3-1-1.jpg">
-            </li>
-            <li class="kotaejpg">
+            </div>
+            <div class="kotaejpg">
                 <img id="kotaepng" src="marubatuPNG/mark_maru.png">
-            </li>
-          </ul>
-        </li>
-        <li class="kotaekaitou">
-          <ul>
-            <li class="kotaeleft">答え&emsp; </li>
-            <li id="kotae" class="kotaeleft"></li><!--解答の番号表示 -->
-            <li class="kotaeright">&emsp; 解答&emsp; </li>
-            <li id="kaitou" class="kotaeright"></li><!--解答の番号表示 -->
-          </ul>
-        </li>
-        <li class="contents">
+            </div>
+        </div>
+        <div class="kotaekaitou">
+            <div class="kotaeleft">答え&emsp; </div>
+            <div id="kotae" class="kotaeleft"></div><!--解答の番号表示 -->
+            <div class="kotaeright">解答&emsp; </div>
+            <div id="kaitou" class="kotaeright"></div><!--解答の番号表示 -->
+        </div>
+        <div class="contents">
           <div class="banngou">
             <button type="button" onclick="button1click()" >1</button>
             <button type="button" onclick="button2click()" >2</button>
@@ -51,10 +46,25 @@
             <button type="button" onclick="button5click()" >5</button>
             <button type="button" onclick="button6click()" >6</button>
           </div>
-        </li>
-          <li class="next">
+          <br><br>
+        </div>
+          <p class="next">
             <button type="button" onclick="next()">次へ</button>
-          </li>
+          </p>
+          <p class="nenndo">
+            <div class="R1-1">
+              <button type="button" onclick="R11()">平成31年度2回</button>
+            </div>
+            <div class="R1-2">
+              <button type="button" onclick="R12()">令和1年度第2回</button>
+            </div>
+            <div class="R2-2">
+              <button type="button" onclick="R22()">令和2年度第2回</button>
+            </div>
+            <div class="R3-1">
+              <button type="button" onclick="R31()">令和3年度第1回</button>
+            </div>
+          </p>
       </ul>
     </div>
 
