@@ -119,22 +119,6 @@ function button4click() {  //数字ボタンについての関数
     judge4();
 
 }
-function button5click() {  //数字ボタンについての関数
-    var str5 = "5";
-    var stra = kotae[nennum-1][dainum-1][mondainum-1];
-    document.getElementById("kaitou").innerHTML = str5 ;
-    document.getElementById("kotae").innerHTML = stra ;
-    judge5();
-
-}
-function button6click() {  //数字ボタンについての関数
-    var str6 = "6";
-    var stra = kotae[nennum-1][dainum-1][mondainum-1];
-    document.getElementById("kaitou").innerHTML = str6 ;
-    document.getElementById("kotae").innerHTML = stra ;
-    judge6();
-
-}
 
 var imgnum = [];// 問題数についての配列
     for (var i = 0; i <= 61; i++) {
@@ -176,24 +160,6 @@ function judge3() {//正解かどうか判定する関数
 
 function judge4() {//正解かどうか判定する関数
     if (kotae[nennum-1][dainum-1][mondainum-1] == 4) {
-        document.getElementById("kotaepng").src="marubatuPNG/mark_maru.png";
-    } else {
-        document.getElementById("kotaepng").src="marubatuPNG/mark_batsu.png";
-    }
-    
-}
-
-function judge5() {//正解かどうか判定する関数
-    if (kotae[nennum-1][dainum-1][mondainum-1] == 5) {
-        document.getElementById("kotaepng").src="marubatuPNG/mark_maru.png";
-    } else {
-        document.getElementById("kotaepng").src="marubatuPNG/mark_batsu.png";
-    }
-    
-}
-
-function judge6() {//正解かどうか判定する関数
-    if (kotae[nennum-1][dainum-1][mondainum-1] == 6) {
         document.getElementById("kotaepng").src="marubatuPNG/mark_maru.png";
     } else {
         document.getElementById("kotaepng").src="marubatuPNG/mark_batsu.png";
