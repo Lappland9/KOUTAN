@@ -52,16 +52,15 @@ li {
 }
  .banngou button{
     text-align: center;
-    margin: 10px 2px;
-    width: 9%;
-    height: 13%;
+    padding: 35px 50px;
+    margin: 10px 5px;
+    font-size: 20px;
  }
 
  .next  button{
     float: right;
+    padding: 35px 45px;
     margin: 10px;
-    width: 17%;
-    height: 8%;
  }
  .mondai img {
     float: left;
@@ -86,8 +85,9 @@ li {
 .kotaeleft {
     float: left;
     border-bottom: 2px solid #2f5167;
+    font-size: 25px;
 }
-.kotaeright {
-    float: left;
-    border-bottom: 2px solid #2f5167;
+
+.nenndo button {
+    margin: 10px 0px;
 }
