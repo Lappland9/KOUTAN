@@ -1,3 +1,7 @@
+body {
+    max-width: 1000px;
+}
+
 li {
     list-style: none;
 }
@@ -6,12 +10,10 @@ li {
     background-color: #26d0c9;
     color: aliceblue;
     height: 50px;
-    width: 100%;
 }
 
 .main {
     height: 80vh;
-    width: 100%;
     display: block;
 }
 
@@ -20,7 +22,7 @@ li {
     color: aliceblue;
     float: left;
     height: 10vh;
-    width: 100%;
+    width: 1000px;
 }
 
 .header-logo {
@@ -53,7 +55,6 @@ li {
     margin: 10px 2px;
     width: 9%;
     height: 13%;
-    float: left;
  }
 
  .next  button{
@@ -82,9 +83,6 @@ li {
     float: left;
 }
 
-.nenndo {
-    float: left;
-}
 .kotaeleft {
     float: left;
     border-bottom: 2px solid #2f5167;
